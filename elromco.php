@@ -34,8 +34,6 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
     'elromco'
 );
 
-//Optional: If you're using a private repository, specify the access token like this:
-$myUpdateChecker->setAuthentication('b70641d5820b3dded8ebac2dbe4ff2f3bebd7f0b');
 
 //Checking for Releases
 $myUpdateChecker->getVcsApi()->enableReleaseAssets();
