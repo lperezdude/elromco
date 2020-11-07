@@ -2,8 +2,8 @@
 
 /*
 Plugin Name: Elromco - JS Form
-Description: This plugin adds a form to the homepage
-Version: 1.0.1
+Description: This plug in adds short codes to your wordpress site used to display the Elromco Forms.
+Version: 1.0.2
 Author: Luis Perez
 License: GPLv2 or later
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
