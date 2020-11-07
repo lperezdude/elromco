@@ -1,0 +1,354 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none; 
+}
+
+.sf-calculate-wrapper fieldset {
+	border: none;
+}
+
+.sf-calculate-wrapper {
+	background: rgba(0,0,0,0.3) !important;
+    text-align: left;
+    border: solid 5px #000!important;
+}
+
+#request-form .ng-enter, #request-form .ng-leave {
+	left: 50px !important;
+	right: 50px !important;
+}
+
+.sf-calculate-wrapper .form-group {
+	width: 100% !important;
+	margin-bottom: 15px !important;
+	display: inline-block;
+}
+
+.sf-calculate-wrapper input, .sf-calculate-wrapper select {
+	height: 40px !important;
+	padding: 0;
+	border: none;
+	border: solid 2px #fff !important;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	border-radius: 0 !important;
+	box-shadow: none !important;
+	padding-left: 10px;
+	background: #fff !important;
+	color: #000 !important;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: #bbc3c8;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #bbc3c8;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #bbc3c8;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #bbc3c8;
+  opacity: 1;
+}
+
+div#request-form .form-group search-zip.search-zip-icon i.fa-search {
+	color: #bbc3c8 !important;
+}
+
+.sf-calculate-wrapper input:focus, .sf-calculate-wrapper select:focus {
+	background: #fff !important;
+	padding-left: 10px;
+	border: solid 2px #000 !important;
+}
+
+.sf-calculate-wrapper input.success {
+	padding-left: 10px;
+	border: solid 1px #587e5e !important;
+}
+
+.sf-calculate-wrapper .submit_btn, .sf-calculate-wrapper .bottom-done-button {
+	box-shadow: none !important;
+	border-radius: 0px !important;
+	color: #fff;
+	background: #000 !important;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	padding: 10px  40px !important;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	text-transform: uppercase;
+}
+
+.sf-calculate-wrapper #step1 .form-group:last-of-type, .sf-calculate-wrapper #step2 .form-group:last-of-type, .sf-calculate-wrapper #step3 .form-group:last-of-type {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.sf-calculate-wrapper .submit_btn:before, .sf-calculate-wrapper .bottom-done-button:before {
+	content: "";
+	position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: block;
+    visibility: visible;
+    width: 0;
+    height: 100%;
+	background: rgba(0, 0, 0, 0.1);
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.sf-calculate-wrapper .submit_btn:hover:before, .sf-calculate-wrapper .bottom-done-button:hover:before {
+	width: 100%;
+}
+
+#request-form .submit_btn {
+	font-size: 14px !important;
+}
+
+.ultrasmall-primary-phone {
+	margin-top: 15px !important;
+}
+
+.ultrasmall-hear-about-us {
+	margin-top: 0 !important;
+}
+
+#request-form .submit_btn p {
+	position: relative;
+	z-index: 3;
+}
+
+.sf-calculate-wrapper .submit_btn:hover, .sf-calculate-wrapper .bottom-done-button:hover {
+	-webkit-box-shadow: 0px 5px 35px 0px rgba(3, 3, 3, 0.25) !important;
+	-moz-box-shadow:    0px 5px 35px 0px rgba(3, 3, 3, 0.25) !important;
+	box-shadow:         0px 5px 35px 0px rgba(3, 3, 3, 0.25) !important;
+}
+
+.sf-calculate-wrapper .submit_btn:active, .sf-calculate-wrapper .bottom-done-button:active {
+	-webkit-transform: scale(0.95);
+	-moz-transform: scale(0.95);
+	transform: scale(0.95);
+}
+
+.sf-calculate-wrapper .form-slogan {
+	margin-top: 0 !important;
+	margin-bottom: 30px !important;
+}
+
+.sf-calculate-wrapper #step1 label.option {
+	color: #fff !important;
+}
+
+#edit-date-storage input {
+	background: #ffffff url(https://themoveboard.com/elromco/calendaricon.png) no-repeat 98% 10px !important;
+}
+
+.sf-calculate-wrapper search-zip.search-zip-icon {
+	margin-top: -25px !important;
+	margin-right: 10px !important;
+}
+
+.sf-calculate-wrapper search-zip.search-zip-icon i {
+	color: #7f7f7f !important;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.sf-calculate-wrapper search-zip.search-zip-icon:hover i {
+	color: #002c98 !important;
+}
+
+.sf-calculate-wrapper search-zip.search-zip-icon:active {
+	-webkit-transform: scale(0.95);
+	-moz-transform: scale(0.95);
+	transform: scale(0.95);
+}
+
+.sf-calculate-wrapper #step1 input.picker__input {
+	background: #29363f url(https://themoveboard.com/elromco/affordableandassertive/calendar.png) !important;
+	background-position: 98% 10px !important;
+	background-repeat: no-repeat !important;
+}
+
+.sf-calculate-wrapper #step1 input.picker__input {
+	cursor: pointer;
+}
+
+.sf-calculate-wrapper .icheckbox_square-green {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.sf-calculate-wrapper .icheckbox_square-green:hover {
+	background-position: -24px 0 !important;
+}
+
+.sf-calculate-wrapper .icheckbox_square-green.checked {
+    background-position: -48px 0 !important;
+}
+
+.sf-calculate-wrapper #sf-move-size {
+	background: #ccc !important;
+	color: #000 !important;
+	padding: 5px;
+	text-align: center;
+	border-radius: 5px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	border: solid 2px #fff;
+}
+
+.sf-calculate-wrapper #sf-move-size i {
+	display: none !important;
+}
+
+.sf-calculate-wrapper #sf-move-size:hover {
+	opacity: 0.8;
+}
+
+.sf-calculate-wrapper #sf-move-size:active, .sf-calculate-wrapper .toolbar button:active {
+	-webkit-transform: scale(0.95);
+	-moz-transform: scale(0.95);
+	transform: scale(0.95);
+}
+
+.sf-calculate-wrapper .toolbar {
+	background: #fff !important
+}
+
+.sf-calculate-wrapper .toolbar button.pull-right {
+	float: right;
+}
+
+.sf-calculate-wrapper .toolbar button {
+	background: #000 !important;
+    border-radius: 30px;
+	font-weight: normal !important;
+	padding: 0 20px !important;
+	height: 30px !important;
+	line-height: 26px !important;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #fff !important;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	border: solid 2px #000;
+}
+
+.sf-calculate-wrapper .toolbar button:hover {
+	background: #fff !important;
+	color: #000 !important;
+}
+
+.sf-calculate-wrapper #calc-info-steps {
+	padding: 15px;
+	border-radius: 7px;
+	border: solid 1px #ccc;
+}
+
+.sf-calculate-wrapper #calc-info-steps .MoveSizeBtn {
+	background: #fff !important;
+	margin: 0 !important;
+	padding: 8px 0 8px 15px !important;
+	border: none !important;
+	border-bottom: solid 1px #ccc !important;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	border-radius: 0 !important;
+	position: relative;
+}
+
+.sf-calculate-wrapper #calc-info-steps .MoveSizeBtn:last-of-type {
+	border: none !important;
+}
+
+.sf-calculate-wrapper #calc-info-steps .MoveSizeBtn:hover {
+	border-bottom: solid 1px #000 !important;
+	padding-left: 25px !important;
+	color: #000 !important;
+}
+
+.sf-calculate-wrapper #calc-info-steps .MoveSizeBtn:before {
+	content: '';
+	width: 8px;
+	height: 8px;
+	opacity: 0;
+	border-radius: 50%;
+	background: #000;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	position: absolute;
+	left: 0;
+	top: 90%;
+}
+
+.sf-calculate-wrapper #calc-info-steps .MoveSizeBtn:hover:before {
+	opacity: 1;
+	top: 50%;
+	margin-top: -4px;
+}
+
+.sf-calculate-wrapper #sf-move-size .desktopzip span {
+	background: #fff;
+    padding: 5px !important;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #000 !important;
+    line-height: 20px !important;
+    font-size: 11px !important;
+}
+
+.sf-calculate-wrapper .circleHandler {
+	display: none;
+}
+
+.sf-calculate-wrapper .back-link {
+	color: #b1b1b1 !important;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.sf-calculate-wrapper .back-link:hover {
+	color: #000 !important;
+}
+
+#congrats_menu.spmenu .mobileform.submit_btn p {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+#block-movecalc-moving-form #calculate_btn:hover, #block-movecalc-moving-form #calculate_btn:active, #block-movecalc-moving-form #edit-go-to-summery:hover, #block-movecalc-moving-form #edit-go-to-summery:active {
+	color: #fff !important;
+	opacity: 0.8;
+}
+
+#step4 {
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+}
+.sf-calculate-wrapper .er-powered-by-elromco{
+	color: #fff;
+}
+
+.spmenu a:hover, .spmenu label:hover {
+	background: #fff !important;
+}
