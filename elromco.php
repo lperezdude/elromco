@@ -3,14 +3,14 @@
 /*
 Plugin Name: Elromco - JS Form
 Description: This plug in adds short codes to your wordpress site used to display the Elromco Forms.
-Version: 1.0.12
+Version: 1.0.13
 Author: Luis Perez
 License: GPLv2 or later
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: elromco
+Text Domain: elromco-plugin
 */
 
-// If this file is called directlylperezdude/elromco t, abort.
+// If this file is called directly, abort.
 if (!defined('WPINC')) {
     die;
 }
@@ -31,7 +31,7 @@ require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
     'https://github.com/lperezdude/elromco/',
     __FILE__,
-    'elromco-plugin'
+    'elromco'
 );
 
 //Optional: If you're using a private repository, specify the access token like this:
