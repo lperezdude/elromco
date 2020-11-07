@@ -3,7 +3,7 @@
 /*
 Plugin Name: Elromco - JS Form
 Description: This plugin adds a form to the homepage
-Version: 1.0.0
+Version: 1.0.1
 Author: Luis Perez
 License: GPLv2 or later
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
@@ -25,3 +25,17 @@ include(plugin_dir_path(__FILE__) . 'includes/scripts.php');
 include(plugin_dir_path(__FILE__) . 'includes/forms.php');
 // Adding Settings Page
 include(plugin_dir_path(__FILE__) . 'includes/admin_settings.php');
+
+// GitHub to Wordpress update integration
+require 'plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+    'https://github.com/lperezdude/elromco_wordpress_plugin/',
+    __FILE__,
+    'elromco'
+);
+
+//Optional: If you're using a private repository, specify the access token like this:
+$myUpdateChecker->setAuthentication('a5bd1ceab34c36156bc7c1337ac4044c385b61ee');
+
+//Checking for Releases
+$myUpdateChecker->getVcsApi()->enableReleaseAssets();
