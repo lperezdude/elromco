@@ -3,14 +3,14 @@
 /*
 Plugin Name: Elromco - JS Form
 Description: This plug in adds short codes to your wordpress site used to display the Elromco Forms.
-Version: 1.0.8
+Version: 1.0.9
 Author: Luis Perez
 License: GPLv2 or later
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: elromco
 */
 
-// If this file is called directly, abort.
+// If this file is called directlylperezdude/elromco t, abort.
 if (!defined('WPINC')) {
     die;
 }
