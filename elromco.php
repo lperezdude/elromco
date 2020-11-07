@@ -3,7 +3,7 @@
 /*
 Plugin Name: Elromco - JS Form
 Description: This plug in adds short codes to your wordpress site used to display the Elromco Forms.
-Version: 1.0.3
+Version: 1.0.4
 Author: Luis Perez
 License: GPLv2 or later
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
@@ -29,7 +29,7 @@ include(plugin_dir_path(__FILE__) . 'includes/admin_settings.php');
 // GitHub to Wordpress update integration
 require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-    'https://github.com/lperezdude/elromco_wordpress_plugin/',
+    'https://github.com/lperezdude/elromco/',
     __FILE__,
     'elromco'
 );
